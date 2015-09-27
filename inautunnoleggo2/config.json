@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "text": "Marco Goldin",
+    "file": "",
+    "link": "https://inmediaref.wordpress.com/"
+  },
+  "text": {
+    "title": "#inAutunnoLeggo",
+    "more": "",
+    "intro": "#inAutunnoLeggo: analisi delle interazioni su Twitter (23-24 settembre 2015).\nLa dimensione dei nodi è proporzionale al loro valore di betwenness centrality. \nIn questo modo si possono evidenziare quali sono le relazioni più importanti al\u0027interno della conversazione.\nPiù è grande il cerchio (nodo), maggiore è la sua influenza.\n\n"
+  },
+  "legend": {
+    "edgeLabel": "Interazioni",
+    "colorLabel": "Modularity",
+    "nodeLabel": "Twitter user"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Betweenness Centrality",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "imageAttribute": "Betweenness Centrality",
+    "groupByEdgeDirection": false
+  },
+  "sigma": {
+    "graphProperties": {
+      "minEdgeSize": 1,
+      "maxNodeSize": 15,
+      "maxEdgeSize": 2,
+      "minNodeSize": 1
+    },
+    "drawingProperties": {
+      "labelThreshold": 10,
+      "hoverFontStyle": "bold",
+      "defaultEdgeType": "curve",
+      "defaultLabelColor": "#000",
+      "defaultLabelHoverColor": "#fff",
+      "defaultLabelSize": 14,
+      "activeFontStyle": "bold",
+      "fontStyle": "bold",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd"
+    },
+    "mouseProperties": {
+      "minRatio": 0.75,
+      "maxRatio": 20
+    }
+  }
+}
