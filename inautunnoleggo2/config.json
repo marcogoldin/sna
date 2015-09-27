@@ -29,9 +29,9 @@
   "sigma": {
     "graphProperties": {
       "minEdgeSize": 1,
-      "maxNodeSize": 25,
+      "maxNodeSize": 20,
       "maxEdgeSize": 2,
-      "minNodeSize": 0.7
+      "minNodeSize": 1
     },
     "drawingProperties": {
       "labelThreshold": 10,
