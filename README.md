@@ -1,10 +1,16 @@
-Social Network Analysis by @inmediaref
+Social network analysis by @inmediaref
+
 ======================================
 
-Progetto #inAutunnoLeggo
-------------------------
 
-1. [Eigenvector centrality](http://marcogoldin.github.io/sna/inautunnoleggo)
 
-2. [Betwenness centrality](http://marcogoldin.github.io/sna/inautunnoleggo2)
+#inAutunnoLeggo
 
+---------------
+
+
+1. [Retweet Graph](http://marcogoldin.github.io/sna/inautunnoleggo3RTgraph/)
+
+2. [Eigenvector centrality](http://marcogoldin.github.io/sna/inautunnoleggo)
+
+3. [Closeness centrality](http://marcogoldin.github.io/sna/inautunnoleggo2)
