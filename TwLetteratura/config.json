@@ -36,7 +36,7 @@
     "drawingProperties": {
       "labelThreshold": 10,
       "hoverFontStyle": "bold",
-      "defaultEdgeType": "curve",
+      "defaultEdgeType": "straight",
       "defaultLabelColor": "#000",
       "defaultLabelHoverColor": "#fff",
       "defaultLabelSize": 20,
