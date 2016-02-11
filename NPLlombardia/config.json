@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Marco Goldin"
+  },
+  "text": {
+    "more": "",
+    "intro": "Social Network Analysis della pagina Facebook NPL-Lombardia (gen-dic 2015).\nLa dimensione dei nodi azzurri (post) è direttamente proporzionale al coefficiente di coinvolgimento ottenuto.",
+    "title": "Facebook NPL-Lombardia"
+  },
+  "legend": {
+    "edgeLabel": "like/comments",
+    "colorLabel": "Posts(blue)/Users(red)",
+    "nodeLabel": "Post/Users"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "type",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": "type"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 18
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 0.5,
+      "maxNodeSize": 4
+    },
+    "mouseProperties": {
+      "maxRatio": 80,
+      "minRatio": 10
+    }
+  }
+}
